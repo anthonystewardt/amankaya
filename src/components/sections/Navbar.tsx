@@ -13,11 +13,14 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import Link from 'next/link';
+import HorarioModal from '../modals/HorarioModal';
 
 
 export const Navbar = () => {
   const [showCarta, setShowCarta] = useState(false);
+  const [showHorario, setShowHorario] = useState(false);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+
 
   const showModal = () => {
     setShowCarta(true)
@@ -25,7 +28,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange} className='pb-5'>
         <ModalContent>
           {(onClose) => (
             <>
@@ -73,18 +76,14 @@ export const Navbar = () => {
                   </Button>
                 </Link>
               </ModalBody>
-              <ModalFooter>
-                <Button color="default" onPress={onClose}>
-                  Cerrar
-                </Button>
-              </ModalFooter>
+             
             </>
           )}
         </ModalContent>
       </Modal>
 
       <div className="flex justify-between  bg-white items-center ">
-        <div className="">
+        <div className="flex items-center gap-3">
           {/* <ButtonPrimary action={showModal} title="CARTA" link="https://www.google.com" /> */}
           <Button
             color="default"
@@ -93,6 +92,8 @@ export const Navbar = () => {
           >
             CARTA
           </Button>
+
+          <HorarioModal />
         </div>
         <div className="">
           <ul className="flex lg:gap-5 gap-3 items-center ">

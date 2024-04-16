@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Navbar } from "@/components/sections/Navbar";
 import { Big_Shoulders_Inline_Display } from "next/font/google"
 import Local from "@/components/map/Local";
+import Footer from "@/components/footer/Footer";
 
 const font = Big_Shoulders_Inline_Display({ subsets: ["latin"]});
 // AIzaSyCU3UjQABVbTkwPcl6CUNZZpe7v4uRiGt8
@@ -41,7 +42,11 @@ export default function Home() {
           <h1 className={`text-5xl mb-2 font-semibold ${font.className}`}>
             DELIVERY:
           </h1>
-          <ButtonEffect color=".blue" path="/" title="Realizar Pedido" />
+          <ButtonEffect
+            color=".blue"
+            path="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola!+Quisiera+realizar+un+pedido"
+            title="Realizar Pedido"
+          />
         </div>
       </div>
       <div className=" ">
@@ -53,7 +58,7 @@ export default function Home() {
                 alt="Picture of the author"
                 width={400}
                 height={450}
-                className="object-cover rounded-lg h-full  md:h-full"
+                className="object-cover md:w-full rounded-lg h-full  md:h-full"
               />
             </div>
             <div className="flex flex-col md:w-1/2 ">
@@ -81,6 +86,9 @@ export default function Home() {
         {/* <h1 className="text-4xl font-semibold text-center mb-4">¿Cómo Llegar?</h1> */}
         <Local />
       </div>
+      <section>
+        <Footer />
+      </section>
     </main>
   );
 }
