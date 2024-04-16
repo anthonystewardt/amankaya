@@ -10,7 +10,6 @@ const ButtonReservas = () => {
   return (
     <div className="flex gap-4 lg:gap-10 flex-col md:flex-row justify-center ">
       <div className="flex flex-col items-center mt-5">
-       
         <Link
           href="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola+Amankaya!"
           target="_blank"
@@ -18,6 +17,7 @@ const ButtonReservas = () => {
           <Button
             className="text-zinc-900 bg-slate-100 font-bold rounded-md text-2xl  "
             fullWidth
+            size="lg"
           >
             RESERVAS
           </Button>
@@ -30,14 +30,13 @@ const ButtonReservas = () => {
           /> */}
       </div>
       <div className="flex flex-col items-center mt-5">
-        
-
         <Link
           href="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola!+Quisiera+realizar+un+pedido"
           target="_blank"
         >
           <Button
-            className="text-zinc-900 bg-slate-100 font-bold rounded-md text-2xl  "
+            size="lg"
+            className="text-zinc-900 bg-slate-100  font-bold rounded-md text-2xl  "
             fullWidth
           >
             DELIVERY

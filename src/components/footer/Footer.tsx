@@ -47,7 +47,7 @@ const Footer = () => {
         </p>
         <p className="text-xs text-white/50 text-center">
           Desarrollado por{" "}
-          <Link href="https://contactamericas.com" className="font-bold">Contact Americas</Link>
+          <Link href="https://contactamericas.com" className="font-bold hover:text-slate-200/90 transition ease">Contact Americas</Link>
         </p>
       </div>
     </footer>
