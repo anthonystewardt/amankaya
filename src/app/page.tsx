@@ -32,7 +32,7 @@ export default function Home() {
         <ButtonReservas />
       </div>
 
-      <div className=" ">
+      <div className="mt-10 lg:mt-0 ">
         <div className="md:mt-44 mt-20 mx-auto flex justify-center ">
           <div className="flex md:justify-center flex-col md:flex-row md:gap-10 gap-3 ">
             <div className="h-[550px] lg:mb-10 ">
