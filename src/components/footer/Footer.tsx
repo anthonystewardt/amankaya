@@ -15,7 +15,7 @@ const Footer = () => {
           height={450}
           className="object-cover h-[100px] md:h-full rounded-lg"
         /> */}
-          <h1 className="font-bold text-2xl text-white/60">AMANKAYA</h1>
+          <h1 className="font-bold text-2xl text-white/60 text-center md:text-left">AMANKAYA</h1>
         </div>
         <div className=" md:col-span-4 col-span-full">
           <p className=" text-1xl font-semibold text-white/80 ">Dirección:</p>

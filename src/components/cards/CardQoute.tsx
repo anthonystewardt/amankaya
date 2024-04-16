@@ -15,7 +15,7 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
       }`}
     >
       <h2
-        className={` md:text-4xl text-3xl font-bold ${
+        className={`text-center lg:text-left md:text-4xl text-3xl font-bold ${
           isBlack ? "text-white/85" : "text-slate-950"
         }`}
       >
