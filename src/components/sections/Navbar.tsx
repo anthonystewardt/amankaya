@@ -95,7 +95,7 @@ export const Navbar = () => {
           </Button>
         </div>
         <div className="">
-          <ul className="flex gap-5 items-center ">
+          <ul className="flex lg:gap-5 gap-3 items-center ">
             <Link href="https://www.facebook.com/amankayalima" target="_blank">
               <FaSquareFacebook className="w-6 h-6" />
             </Link>

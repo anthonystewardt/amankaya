@@ -33,7 +33,7 @@ export default function Home() {
           </h1>
           <ButtonEffect
             color="green"
-            path="https://api.whatsapp.com/send?phone=51947420728&text=%C2%A1Hola+Amankaya!"
+            path="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola+Amankaya!"
             title="WhatsApp"
           />
         </div>
@@ -47,13 +47,13 @@ export default function Home() {
       <div className=" ">
         <div className="md:mt-44 mt-20 mx-auto flex justify-center ">
           <div className="flex md:justify-center flex-col md:flex-row md:gap-10 gap-3 ">
-            <div className="h-[550px] mb-10 ">
+            <div className="h-[550px] lg:mb-10 ">
               <Image
                 src={chef}
                 alt="Picture of the author"
                 width={400}
                 height={450}
-                className="object-cover rounded-lg  md:h-full"
+                className="object-cover rounded-lg h-full  md:h-full"
               />
             </div>
             <div className="flex flex-col md:w-1/2 ">
