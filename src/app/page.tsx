@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className=" min-h-screen  md:px-24 px-6 py-6 md:py-12 transition-all ease">
       <Navbar />
-      <section className="flex justify-center  items-center">
+      <section className="flex justify-center mt-5 lg:mt-2 items-center">
         <Image
           src={logoLocal}
           alt="Picture of the author"

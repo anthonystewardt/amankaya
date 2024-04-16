@@ -8,7 +8,7 @@ import Link from 'next/link';
 const font = Big_Shoulders_Inline_Display({ subsets: ["latin"] });
 const ButtonReservas = () => {
   return (
-    <div className="flex gap-4 lg:gap-10 flex-col md:flex-row justify-center ">
+    <div className="flex lg:gap-10 flex-col md:flex-row justify-center ">
       <div className="flex flex-col items-center mt-5">
         <Link
           href="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola+Amankaya!"
