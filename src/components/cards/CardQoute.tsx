@@ -16,11 +16,12 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
     >
       <h2
         className={` md:text-4xl text-3xl font-bold ${
-          isBlack ? "text-white" : "text-slate-950"
+          isBlack ? "text-white/85" : "text-slate-950"
         }`}
       >
-        {author}
+        Chef {author}
       </h2>
+      {/* <span className='text-xs font-semibold text-slate-200/70 pl-2'>Chef Gabriel Osorio</span> */}
       <span
         className={` md:text-2xl text-1xl mt-3 block ${
           isBlack
