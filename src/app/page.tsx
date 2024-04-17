@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-5 lg:mt-10">
+      <div className="mt-5 lg:mt-32">
         {/* <h1 className="text-4xl font-semibold text-center mb-4">¿Cómo Llegar?</h1> */}
         <Local />
       </div>

@@ -17,14 +17,14 @@ const Footer = () => {
         /> */}
           <h1 className="font-bold text-2xl text-white/60 text-center md:text-left">AMANKAYA</h1>
         </div>
-        <div className=" md:col-span-4 col-span-full">
+        <div className=" md:col-span-4 text-center col-span-full">
           <p className=" text-1xl font-semibold text-white/80 ">Dirección:</p>
           <p className="text-xs inline">
             Av. 28 de Julio 562, Miraflores. Dentro de LA QUINTA BUSTOS, Casa G
           </p>
         </div>
         <div className=" md:col-span-3 col-span-full  w-full">
-           <ul className="flex  lg:justify-end lg:gap-5 gap-3 items-center ">
+           <ul className="flex  lg:justify-end justify-center lg:gap-5 gap-3 items-center ">
             <Link href="https://www.facebook.com/amankayalima" target="_blank">
               <FaSquareFacebook className="lg:w-6 lg:h-6 w-4 h-4 text-white/60" />
             </Link>

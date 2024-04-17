@@ -22,15 +22,21 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
         Chef {author}
       </h2>
       {/* <span className='text-xs font-semibold text-slate-200/70 pl-2'>Chef Gabriel Osorio</span> */}
-      <span
+      <p
         className={` md:text-2xl text-1xl mt-3 block ${
           isBlack
             ? "text-white text-opacity-65   "
             : "text-black text-opacity-95 "
         }`}
       >
-        {quote}
-      </span>
+        La carta de Amankaya fue elaborada por Gabriel Osorio teniendo en cuenta
+        el manejo de insumos sostenibles y de temporada, con el alma de nuestra
+        cocina ancestral y creatividad transgresora.
+      </p>
+      <p className="block mt-5 md:text-2xl text-white text-opacity-65">
+        La fiesta de Amankaya se celebra el 24 de junio pero, ¡aquí la podemos
+        vivir todos los días!
+      </p>
     </div>
   );
 }
