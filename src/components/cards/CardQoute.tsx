@@ -15,7 +15,7 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
       }`}
     >
       <h2
-        className={`text-center lg:text-left md:text-4xl text-3xl font-bold ${
+        className={` text-center  md:text-4xl text-3xl font-bold ${
           isBlack ? "text-white/85" : "text-slate-950"
         }`}
       >
@@ -23,7 +23,7 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
       </h2>
       {/* <span className='text-xs font-semibold text-slate-200/70 pl-2'>Chef Gabriel Osorio</span> */}
       <p
-        className={` md:text-2xl text-1xl mt-3 block ${
+        className={` md:text-2xl text-1xl mt-3 text-center block ${
           isBlack
             ? "text-white text-opacity-65   "
             : "text-black text-opacity-95 "
@@ -33,7 +33,7 @@ export const CardQoute = ({quote, author, isBlack}: Prop) => {
         el manejo de insumos sostenibles y de temporada, con el alma de nuestra
         cocina ancestral y creatividad transgresora.
       </p>
-      <p className="block mt-5 md:text-2xl text-white text-opacity-65">
+      <p className="block mt-5 md:text-2xl text-center text-white text-opacity-65">
         La fiesta de Amankaya se celebra el 24 de junio pero, ¡aquí la podemos
         vivir todos los días!
       </p>
