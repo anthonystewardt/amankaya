@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { Button } from "@nextui-org/react";
+// import { Button } from "@nextui-org/react";
 import { Big_Shoulders_Inline_Display } from "next/font/google";
 import Link from 'next/link';
 
@@ -13,14 +13,9 @@ const ButtonReservas = () => {
         <Link
           href="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola!+Quisiera+hacer+una+reserva"
           target="_blank"
+          className="px-4 py-3 rounded-lg bg-slate-200/90 hover:bg-slate-300/95 transition ease font-semibold uppercase"
         >
-          <Button
-            className="text-zinc-900 bg-slate-100 font-bold rounded-md text-2xl  "
-            fullWidth
-            size="lg"
-          >
-            RESERVAS
-          </Button>
+          RESERVAS
         </Link>
 
         {/* <ButtonEffect
@@ -33,14 +28,10 @@ const ButtonReservas = () => {
         <Link
           href="https://api.whatsapp.com/send?phone=51936354615&text=%C2%A1Hola!+Quisiera+realizar+un+pedido"
           target="_blank"
+          className="px-4 py-3 rounded-lg bg-slate-200/90 hover:bg-slate-300/95 transition ease font-semibold uppercase"
         >
-          <Button
-            size="lg"
-            className="text-zinc-900 bg-slate-100  font-bold rounded-md text-2xl  "
-            fullWidth
-          >
-            DELIVERY
-          </Button>
+          Delivery
+          
         </Link>
         {/* <ButtonEffect
           color=".blue"
