@@ -22,7 +22,7 @@ export default function Home() {
     <main className=" min-h-screen  relative transition-all ease">
       <div className="">
         <Navbar />
-        <section className="flex justify-center mt-5 lg:mt-2 items-center">
+        <section className="flex justify-center px-10 mt-5 lg:mt-2 items-center">
           <Image
             src={logoLocal}
             alt="Picture of the author"
@@ -34,7 +34,7 @@ export default function Home() {
           <ButtonReservas />
         </div>
 
-        <div className="mt-10 lg:mt-0 ">
+        <div className="mt-10 lg:mt-0 px-6">
           <div className="md:mt-44 mt-20 mx-auto flex justify-center ">
             <div className="flex md:justify-center flex-col md:flex-row md:gap-10 gap-3 ">
               <div className="h-[550px] lg:mb-10 ">

@@ -117,73 +117,10 @@ export const Navbar = () => {
         </SimpleModal>
       )}
 
-      {/* <Modal isOpen={isOpen} onOpenChange={onOpenChange} className='pb-5'>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col items-center gap-1">
-                Carta
-              </ModalHeader>
-              <ModalBody>
-                <Link
-                  href="https://drive.google.com/file/d/1H1xx9vOR71ETiEbUpFixjBt_BZJIqWqH/view"
-                  target="_blank"
-                >
-                  <Button
-                    color="default"
-                    className="bg-slate-950 text-white font-semibold"
-                    onPress={onOpen}
-                    fullWidth
-                  >
-                    Bar
-                  </Button>
-                </Link>
-                <Link
-                  href="https://drive.google.com/file/d/1BLta4_lOtZXMQcdZzCSYxZy_fDKHhkid/view"
-                  target="_blank"
-                >
-                  <Button
-                    color="default"
-                    className="bg-slate-950 text-white font-semibold"
-                    onPress={onOpen}
-                    fullWidth
-                  >
-                    Almuerzos
-                  </Button>
-                </Link>
-                <Link
-                  href="https://drive.google.com/file/d/1OkXhOKLjHa1e2dZG4Rtjm3jN6KoqgbRD/view"
-                  target="_blank"
-                >
-                  <Button
-                    color="default"
-                    className="bg-slate-950 text-white font-semibold"
-                    onPress={onOpen}
-                    fullWidth
-                  >
-                    Cena
-                  </Button>
-                </Link>
-              </ModalBody>
-             
-            </>
-          )}
-        </ModalContent>
-      </Modal> */}
+     
 
-      <div className="flex justify-between lg:py-20 py-16 lg:px-24 px-6 bg-white items-center ">
+      <div className="flex justify-between lg:py-20 py-6 lg:px-24 px-6 bg-white items-center ">
         <div className="flex items-center gap-3">
-          {/* <ButtonPrimary action={showModal} title="CARTA" link="https://www.google.com" /> */}
-          {/* <Button
-            color="default"
-            className="bg-slate-950 text-white font-semibold"
-            onPress={onOpen}
-          >
-            CARTA
-          </Button> */}
-          {/* <button>CARTA</button> */}
-
-          {/* <HorarioModal /> */}
           <Button
             className="bg-slate-950 hover:bg-slate-950/75 transition ease text-white font-semibold px-3"
             onClick={() => setShowCarta(true)}
